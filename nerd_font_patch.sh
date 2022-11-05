@@ -53,7 +53,7 @@ then
 else
     log "Nerd-font dir not found!"
     log "Git cloning from 'https://github.com/ryanoasis/nerd-fonts'"
-    git clone "https://github.com/ryanoasis/nerd-fonts.git"
+    git clone --depth 1 "https://github.com/ryanoasis/nerd-fonts.git"
 fi
 
 log "Copying nerd-fonts/src into $MAIN_DIR"
