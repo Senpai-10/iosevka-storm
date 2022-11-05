@@ -64,6 +64,6 @@ cp nerd-fonts/font-patcher .
 
 log "Patching all fonts inside of ${FONTS_DIR} dir and output to ${DIST_DIR}"
 find fonts -type f \
-    -exec fontforge -script font-patcher -c --use-single-width-glyphs --careful {} -out "dist/iosevka-storm/" \;
+    -exec fontforge -script font-patcher -c --careful {} -out "dist/iosevka-storm/" \;
 
 log "Done"
