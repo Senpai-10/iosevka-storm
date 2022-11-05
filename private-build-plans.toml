@@ -1,6 +1,6 @@
 [buildPlans.iosevka-storm]
 family = "Iosevka Storm"
-spacing = "fontconfig-mono"
+spacing = "normal"
 serifs = "sans"
 no-cv-ss = true
 export-glyph-names = true
