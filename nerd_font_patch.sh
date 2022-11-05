@@ -56,7 +56,10 @@ else
     git clone "https://github.com/ryanoasis/nerd-fonts.git"
 fi
 
+log "Copying nerd-fonts/src into $MAIN_DIR"
 cp -r nerd-fonts/src .
+
+log "Copying the font-patcher script into $MAIN_DIR"
 cp nerd-fonts/font-patcher .
 
 log "Patching all fonts inside of ${FONTS_DIR} dir and output to ${DIST_DIR}"
