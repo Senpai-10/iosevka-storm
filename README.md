@@ -3,6 +3,7 @@
 
 # build the font
 
+```bash
 npm run build -- ttf::iosevka-storm
-
+```
 
