@@ -7,3 +7,10 @@
 npm run build -- ttf::iosevka-storm
 ```
 
+# add nerd font fonts
+
+run patch font script
+
+```bash
+./nerd_font_patch.sh
+```
